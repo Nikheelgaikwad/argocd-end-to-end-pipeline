@@ -37,7 +37,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "Jenkins-Zero-To-Hero"
+            GIT_REPO_NAME = "argocd-end-to-end-pipeline"
             GIT_USER_NAME = "Nikheelgaikwad"
         }
         steps {
